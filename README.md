@@ -1,8 +1,11 @@
-# Diapositivas del Curso de Introducción a Jenkins
-## Módulo 3: Instalación
+# Diapositivas del Curso de Introducción a Jenkins - Módulo 3: Instalación
 
 ## Índice
 
+* Tipos de tareas (Jobs)
+* Secciones de una tarea
+* Ejecuciones (Builds)
+* Tareas parametrizadas
 
 ## Visualización
 
