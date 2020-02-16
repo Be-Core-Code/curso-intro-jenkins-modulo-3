@@ -61,3 +61,48 @@ que
 ```
 http://server/job/myjob/buildWithParameters?Parameter=Value
 ```
+
+^^^^^
+
+#### 💻️ Tarea: Ejemplo de uso de parámetro de tipo fichero
+
+Crea una nueva tarea de tipo estilo libre.
+
+^^^^^
+
+#### 💻️ Tarea: Ejemplo de uso de parámetro de tipo fichero
+
+Parametriza la tarea para que admita un fichero:
+
+![parameterized_build_example_1_set_parameters](/slides/images/parameterized_build_example_1_set_parameters.png)
+
+^^^^^
+
+#### 💻️ Tarea: Ejemplo de uso de parámetro de tipo fichero
+
+Parametriza la tarea para que admita un fichero:
+
+![parameterized_build_example_1_build_step](/slides/images/parameterized_build_example_1_build_step.png)
+
+^^^^^
+
+#### 💻️ Tarea: Ejemplo de uso de parámetro de tipo fichero
+
+Ejecuta la tarea, sube un fichero de texto y verifica que efectivamente la información sale en
+log de la tarea.
+
+notes:
+
+Accede al workspace y veerifica que el fichero está físicamente ahí.
+
+Con esto podemos hacer cosas tan inútiles como subir un fichero mp3 y reproducirlo. Para ello,
+instalamor sox en la máquina virtual:
+
+```bash 
+> sudo apt install sox libsox-fmt-all
+```
+
+Y luego añadir un paso que reproduzca el fichero. Con las máquinas virtuales
+no se escucha siempre pero si tienes Jenkins instalado en tu máquina si se escucha.
+
+
