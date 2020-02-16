@@ -4,8 +4,8 @@
 * Pipeline
 * Proyecto con configuración múltiple
 * Carpeta
-* Github Organization
 * Multibranch Pipeline
+* Github Organization
 
 ^^^^^^
 
@@ -157,11 +157,6 @@ Más información:
 * [Página del plugin `Folders`](https://docs.cloudbees.com/docs/admin-resources/latest/plugins/folder)
 * [Página del plugin `Folders Plus`](https://docs.cloudbees.com/docs/admin-resources/latest/plugins/folders-plus)
 
-
-^^^^^^
-
-#### Tipos de tareas: Github organization
-
 ^^^^^^
 
 #### Tipos de tareas: Multibranch Pipeline
@@ -180,3 +175,14 @@ Más información:
 
 * [Documentación del plugin `pipeline-plugin`](https://github.com/jenkinsci/pipeline-plugin/blob/master/TUTORIAL.md#creating-multibranch-projects)
 
+
+^^^^^^
+
+#### Tipos de tareas: Github Organization
+
+Escanea una organización de Github y extrae de ella tareas de tipo
+Multibranch Pipeline para los repositorios seleccionados en base a unas reglas.
+
+notes:
+
+Este tipo de tarea no lo utilizaremos durante el curso.
