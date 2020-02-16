@@ -6,7 +6,7 @@
 * [Secciones de una tarea](/#job_sections)
 * [Ejecuciones (Builds)](/#builds)
 * [Tareas parametrizadas](/#parameterized_jobs)
-
+* [Ejercicios](/#exercises)
 notes:
 
 Los objetivos de este módulo son:
